@@ -6,5 +6,6 @@ urlpatterns = [
     path('',views.WatchData),
     path('admin/', admin.site.urls),
     path('fetch',views.FetchData),
+    path('ormselect',views.ormselect),
 
 ]
